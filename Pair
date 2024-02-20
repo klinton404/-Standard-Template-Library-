@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    pair<int,string>p;  // p(10, "Klinton");  another way
+
+    p.first=10;
+    p.second="Klinton";
+
+
+    cout<<p.first <<" " <<p.second <<"\n";
+}
