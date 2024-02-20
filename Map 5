@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    map<int,string>mp;
+    mp[0]="bbb";
+    mp.insert({1,"klinton"});
+    mp.insert({2,"abc"});
+    mp.insert({3,"cba"});
+    mp.insert({4,"aaa"});
+
+    for(auto it: mp)
+    {
+        cout<<it.first<<" "<<it.second<<"\n";
+    }
+}
+
