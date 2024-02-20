@@ -13,7 +13,7 @@ int main()
     ms.insert(5);
     ms.insert(6);
     ms.insert(7);
-    ms.insert(1);    // It allow only single times
+    ms.insert(1);    // It allow Multiple times
 
 
 
