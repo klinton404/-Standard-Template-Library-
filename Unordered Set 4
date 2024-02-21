@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    unordered_set<int>us;
+
+    us.insert(1);    //unique but unordered
+    us.insert(2);
+    us.insert(3);
+    us.insert(4);
+    us.insert(2);
+    us.insert(5);
+
+
+    cout<<us.bucket_size(5)<<"\n";
+}
